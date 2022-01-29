@@ -67,7 +67,7 @@ export default {
           id: (layout.items.length + 1).toString(),
           x: 0,
           y: 0,
-          width: 2,
+          width: 1,
           height: 1,
         });
       }

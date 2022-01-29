@@ -98,8 +98,8 @@ export default {
 .content {
   height: 100%;
   width: 100%;
-  border: 1px solid #42b983;
+  border: 1px solid #df0909;
   border-radius: 5px;
-  background-color: #42b9833d;
+  background-color: #c486003d;
 }
 </style>

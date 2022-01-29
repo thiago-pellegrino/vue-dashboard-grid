@@ -11,6 +11,8 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 A Responsive, Draggable & Resizable Dashboard (grid) made with vue and typescript. 
 Inspired by React-Grid-Layout & Vue-Grid-Layout
 
+[Link](https://github.com/bensladden/vue-responsive-dash)
+
 Notice that we are improve that project to have a little bit more functionalites.
 
 # vue-dashboard-grid
