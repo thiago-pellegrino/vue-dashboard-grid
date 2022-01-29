@@ -1,6 +1,13 @@
 {
   "name": "vue-dashboard-grid",
-  "version": "0.0.1",
+  "version": "0.0.3",   
+  "files": [
+    "dist",
+    "types/*.d.ts"
+  ],
+  "main": "dist/vue-dashboard-grid.umd.js",
+  "module": "dist/vue-dashboard-grid.es.js",
+	"unpkg": "dist/vue-dashboard-grid.umd.min.js",
   "keywords": [
     "vuejs",
     "vue",
@@ -22,18 +29,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/vue-dashboard-grid.umd.js",
-  "module": "./dist/vue-dashboard-grid.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/vue-dashboard-grid.es.js",
-      "require": "./dist/vue-dashboard-grid.umd.js"
-    }
-  },
-  "dependencies": {
+   "dependencies": {
     "@interactjs/actions": "^1.10.11",
     "@interactjs/auto-start": "^1.10.11",
     "@interactjs/interact": "^1.10.11",

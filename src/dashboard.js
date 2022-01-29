@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
-import App from './DashboardGrid.vue'
+import App from './DashboardTemplate.vue'
 
 createApp(App).mount('#app');
