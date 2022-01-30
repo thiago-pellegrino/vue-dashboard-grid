@@ -1,6 +1,6 @@
 {
   "name": "vue-dashboard-grid",
-  "version": "0.0.7",
+  "version": "0.0.12",
   "keywords": [
     "vuejs",
     "vue",
@@ -18,15 +18,17 @@
   "author": "Thiago Pellegrino",
   "license": "MIT",
   "files": [
-    "dist",
+    "src",
     "types/*.d.ts"
   ],
   "types": "types/index.d.ts",
-  "main": "dist/vue-dashboard-grid.es.js",
+  "nextmain": "dist/vue-dashboard-grid.es.js",
+  "main": "src/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server":" npm run build && vite preview"
   },
   "dependencies": {
     "@interactjs/actions": "^1.10.11",

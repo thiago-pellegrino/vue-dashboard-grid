@@ -1,4 +1,4 @@
-/*
+
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -6,7 +6,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()]
 })
-
+/*
 // vite.config.js
 const path = require('path')
 const { defineConfig } = require('vite')
@@ -33,7 +33,7 @@ module.exports = defineConfig({
   }
 })
 */
-
+/*
 import { defineConfig } from 'vite'
 
 import vue from '@vitejs/plugin-vue'
@@ -60,7 +60,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/main.ts'),
+      entry: resolve(__dirname, 'src/main.js'),
       name: 'vue-dashboard-grid',
       fileName: (format) => `vue-dashboard-grid.${format}.js`
     },
@@ -77,3 +77,4 @@ export default defineConfig({
     }
   }
 })
+*/
