@@ -1,4 +1,4 @@
-import dashboardGrid from './DashboardGrid.vue'
-import dashboardTemplate from './DashboardTemplate.vue'
+import { createApp } from 'vue'
+import App from './DashboardTemplate.vue'
 
-export { dashboardGrid, dashboardTemplate }
+createApp(App).mount('#app');

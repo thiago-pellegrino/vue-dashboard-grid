@@ -1,7 +1,7 @@
 <template>
     <Dashboard :id="'layout'" @currentBreakpointUpdated="updateCurrentBreakpoint">
       <DashLayout v-for="layout in layouts" :key="layout.breakpoint" v-bind="layout" :compact="false">
-        <Dash-Item v-for="item in layout.items" 
+        <DashItem v-for="item in layout.items" 
             :id.sync="item.id" 
             :x.sync="item.x"
             :y.sync="item.y" 
@@ -17,16 +17,13 @@
           <div class="content">
             <!-- JSON.stringify(item, null, 2) --> 
             {{item.id}}
-          </div>
-        </Dash-Item>
+          </div></DashItem>
         <template v-slot:placeholder>
           <div class="placeholderTest"></div>
         </template>
       </DashLayout>
-    </Dashboard>   
-
+    </Dashboard>
 </template>
-
 <script>
 import DashItem from "./components/DashItem.vue"
 import DashLayout from "./components/DashLayout.vue";
