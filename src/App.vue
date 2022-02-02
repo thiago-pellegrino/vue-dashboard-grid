@@ -1,15 +1,9 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-import DashboardGrid from './components/DashboardGrid.vue'
+import DashboardGrid from './DashboardGrid.vue'
 </script>
-
-<template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <DashboardGrid msg="Hello Vue 3 + TypeScript + Vite" />
+<template> 
+  <DashboardGrid :_numberOfCols="4" :_numberOfRows="4"/>
 </template>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

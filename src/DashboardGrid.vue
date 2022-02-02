@@ -27,9 +27,9 @@
 </template>
 
 <script>
-import DashItem from "../components/DashItem.vue"
-import DashLayout from "../components/DashLayout.vue";
-import Dashboard from "../components/Dashboard.vue";
+import DashItem from "./components/DashItem.vue"
+import DashLayout from "./components/DashLayout.vue"
+import Dashboard from "./components/Dashboard.vue"
 
 export default {
   components: {
@@ -51,7 +51,7 @@ export default {
         breakpoint:"",
         numberOfCols: 0,
         numberOfRows: 0,
-        items: []
+        items: [ ]
       }    
     ], 
     currentBreakpoint: ""
@@ -85,3 +85,12 @@ export default {
   }
 };
 </script>
+<style>
+.content {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #42b983;
+  border-radius: 2px;
+  background-color: #42b9833d;
+}
+</style>

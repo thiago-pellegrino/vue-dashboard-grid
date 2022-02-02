@@ -34,7 +34,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/main.ts'),
+      entry: resolve(__dirname, 'src/main.js'),
       name: 'vue-ts-dashboard-grid',
       fileName: (format) => `vue-ts-dashboard-grid.${format}.js`
     },
