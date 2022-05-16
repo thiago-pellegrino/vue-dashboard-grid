@@ -1,50 +1,65 @@
 {
-  "name": "vue-ts-dashboard-grid",
-  "version": "0.0.3",
+  "name": "vue-dashboard-grid",
+  "version": "0.1.5",
+  "author": "Thiago Pellegrino",
+  "license": "MIT",
   "keywords": [
     "vuejs",
     "vue",
-    "responsive",
-    "drag",
-    "draggable",
-    "resize",
-    "resizable",
     "dashboard",
     "grid",
     "grid-layout",
     "dashboard",
     "components"
   ],
-  "author": "Thiago Pellegrino",
-  "license": "MIT",
   "files": [
-    "dist",
-    "types/*.d.ts"
+    "dist"
   ],
-  "types": "types/index.d.ts",
-  "main": "dist/vue-ts-dashboard-grid.es.js",
+  "main": "./dist/vue-dashboard-grid.umd.js",
+  "module": "./dist/vue-dashboard-grid.common.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-dashboard-grid.common.js",
+      "require": "./dist/vue-dashboard-grid.umd.js"
+    }
+  },
+  "private": false,
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@interactjs/actions": "^1.10.11",
-    "@interactjs/auto-start": "^1.10.11",
-    "@interactjs/interact": "^1.10.11",
-    "@interactjs/types": "^1.10.11",
-    "@rollup/plugin-typescript": "^8.3.0",
-    "@types/jest": "^27.4.0",
-    "element-resize-detector": "^1.2.4",
-    "ste-simple-events": "^2.1.14",
-    "vue": "^3.2.25",
-    "vue-element-resize-detector": "^1.0.6"
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13"
   },
   "devDependencies": {
-    "@types/node": "^17.0.14",
-    "@vitejs/plugin-vue": "^2.0.0",
-    "typescript": "^4.4.4",
-    "vite": "^2.7.2",
-    "vue-tsc": "^0.29.8"
-  }
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
 }
