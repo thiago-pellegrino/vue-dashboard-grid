@@ -78,3 +78,6 @@ export default {
 }
 </style> 
 ```
+## Show Dashboard Example
+
+![Example](https://github.com/thiago-pellegrino/vue-dashboard-grid/blob/main/src/assets/example_1.png)
