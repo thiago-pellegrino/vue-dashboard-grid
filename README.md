@@ -81,3 +81,7 @@ export default {
 ## Show Dashboard Example
 
 ![Example](https://github.com/thiago-pellegrino/vue-dashboard-grid/blob/main/src/assets/example_1.png)
+
+## Next Example - Make Beauty Dashboards
+
+![Example](https://github.com/thiago-pellegrino/vue-dashboard-grid/blob/main/src/assets/example_2.jpeg)
