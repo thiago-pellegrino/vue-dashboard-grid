@@ -18,8 +18,8 @@ export default {
         DashboardGrid
     },
     data: () => ({
-      cols: 4,
-      rows: 4,
+      cols: 8,
+      rows: 6,
       margin:[4, 4],
       backgroundColor: '#E4E4E4',
       placeHolderBackground:'#C6F3DF'
