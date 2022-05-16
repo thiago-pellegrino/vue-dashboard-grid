@@ -1,8 +1,8 @@
-# Vue 3 + Vue CLI UI
+# Vue 3 +  Vue CLI UI
 
 This template should help get you started developing with Vue 3 in Vue CLI UI. You can also create and manage projects using a graphical interface with the vue ui command: 
 ```sh
-$ vue ui
+$vue ui
 ``` 
 Check out the [script setup docs](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui) to learn more.
 
@@ -16,7 +16,7 @@ A pre determinate grid to build dashboards with any type of contents, like chart
 
 ## Installation
 ```sh
-$ npm install vue-dashboard-grid@latest
+$ npm install vue-dashboard-grid@latest 
 ```
 ## Documents
 [Link](https://#)
